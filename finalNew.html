@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Amazium example</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<!--    <script type="text/javascript">
+        /mobi/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
+          if (!pageYOffset) window.scrollTo(0, 1);
+        }, 1000);
+    </script>-->
+    
+    
+
+	<!-- CSS -->
+   
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/amazium.css">
+    <link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/layout.css">
+     <link rel="stylesheet" href="css/final.css">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+
+</head>
+
+
+<body>
+    <header>
+        <nav class="menu">
+            <button class="toggle-nav">&#9776; </button>
+            <ul class="active">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                     <li>
+                    <a href="#menus">Menus</a>
+                </li>
+                <li>
+                    <a href="#partes">Parties</a>
+                </li>
+                <li>
+                    <a href="#reservations">Reservations</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+               
+           
+            </ul>
+        </nav><a href="#reservations"><button id="cta-register">Reservation</button></a>
+    </header>
+    <section class="pageWrapper">
+        <article class="row">
+            <article class="grid_12">
+                <img alt="" class="img-max" src="img/cuttingfish.png">
+            </article>
+        </article>
+        <article class="row">
+            <article class="grid_12" id="about">
+                <img alt="" class="img-max" src="img/AboutFishCo.jpg">
+            </article>
+        </article>
+        <section class="row" id="services">
+            <article class="grid_4">
+                <button class="accordion"><img alt="local" class="img-max" src="img/local2.jpg"></button>
+                <div class="panel">
+                    <p></p>
+                    <h1>local love</h1>
+                    <p></p>
+                    <p>At Bay House, we believe in not only supporting the large community of local farmers but also in delievering the best quality ingredients. Our chefs work directly with these farms and over the years have become part of the Bay House family. </p>
+                    <p>The workouts themselves are completely scalable, which means that a new participant and a CrossFit veteran can complete the same workout with changes in load and intensity. CrossFit workouts will deliver phenomenal fitness in and of themselves or as a complement to your sport-specific training regime.</p>
+                </div>
+            </article>
+            <article class="grid_4">
+                <button class="accordion"><img alt="fresh" class="img-max" src="img/fresh2.jpg"></button>
+                <div class="panel">
+                    <p></p>
+                  <h1>fresh ingredients you can taste</h1>
+                    <p></p>
+                    <p>Our seafood is never farmed and comes straight from the West Coast. </p>
+                    <p>We say boo to commercial exercise equipment and over crowded gyms. You might see kettlebells, trx suspension system, prowlers, saddle bags, or club bells...variety my friends is the name of the game! Step into our modern spaces structured for personalized workouts and total body fitness.</p>
+                </div>
+            </article>
+            <article class="grid_4" id="menus">
+                <button class="accordion"><img alt="lunch" class="img-max" src="img/lunch.png"></button>
+                <div class="panel">
+                    <p></p>
+                    <h1>Yoga & Pilates</h1>
+                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                </div>
+            </article>
+            
+             <article class="grid_4">
+                <button class="accordion"><img alt="dinner" class="img-max" src="img/dinner.png"></button>
+                <div class="panel">
+                    <p></p>
+                    <h1>Yoga & Pilates</h1>
+                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                </div>
+            </article>
+             <article class="grid_4">
+                <button class="accordion"><img alt="drinks" class="img-max" src="img/drinks.png"></button>
+                <div class="panel">
+                    <p></p>
+                    <h1>Yoga & Pilates</h1>
+                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                </div>
+            </article>
+        </section>
+ 
+    <!--    <section class="row" id="schedule">
+            <article class="grid_12">
+                <hr>
+                <h3>Class Schedule</h3>
+                <table summary="This is an example of a table">
+                    <tbody>
+                        <tr>
+                            <th scope="col">Class</th>
+                            <th scope="col">Instructor</th>
+                            <th scope="col">Level</th>
+                            <th scope="col">Time</th>
+                        </tr>
+                        <tr>
+                            <td data-title="#ID">Circuit Training</td>
+                            <td data-title="First Name">Matthew</td>
+                            <td data-title="Last Name">Beginner</td>
+                            <td data-title="Location">8:00AM</td>
+                        </tr>
+                        <tr>
+                            <td data-title="#ID">Forrest Yoga</td>
+                            <td data-title="First Name">Christina</td>
+                            <td data-title="Last Name">Advanced</td>
+                            <td data-title="Location">8:30AM</td>
+                        </tr>
+                        <tr>
+                            <td data-title="#ID">Cross Fit</td>
+                            <td data-title="First Name">Oliver</td>
+                            <td data-title="Last Name">Intermediate</td>
+                            <td data-title="Location">9:15AM</td>
+                        </tr>
+                        <tr>
+                            <td data-title="#ID">Cross Fit</td>
+                            <td data-title="First Name">Lucas</td>
+                            <td data-title="Last Name">Advanced</td>
+                            <td data-title="Location">11:00AM</td>
+                        </tr>
+                        <tr>
+                            <td data-title="#ID">Mat Pilates</td>
+                            <td data-title="First Name">Mariana</td>
+                            <td data-title="Last Name">Beginner</td>
+                            <td data-title="Location">11:AM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </article>
+        </section>--><!--<section class="row">
+    <article class="grid_6">
+        <h3>100% Video</h3>
+        <div class="media">
+            <iframe src="http://player.vimeo.com/video/21465475?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=0" frameborder="0"></iframe>
+        </div>
+    </article>
+    </section>-->
+    
+    
+</section>    
+    <!-- Scripts -->
+    <script src="js/jquery-1.8.0.min.js" type="text/javascript">
+    </script> 
+    <script src="js/amazium.js" type="text/javascript">
+    </script> 
+    <script>
+    jQuery(document).ready(function() {
+    jQuery('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('active');
+        jQuery('.menu ul').toggleClass('active');
+
+        e.preventDefault();
+    });
+    });
+    </script> 
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+    }
+    </script>
+</body>
+</html>
